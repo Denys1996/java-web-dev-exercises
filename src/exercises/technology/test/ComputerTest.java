@@ -1,5 +1,6 @@
 package exercises.technology.test;
 
+import exercises.technology.main.AbstractEntity;
 import exercises.technology.main.Computer;
 import org.junit.Before;
 import org.junit.Test;

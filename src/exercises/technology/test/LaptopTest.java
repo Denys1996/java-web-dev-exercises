@@ -28,8 +28,9 @@ public class LaptopTest {
     @Test
     public void openIntelliJTest() {
         this.myLaptop.setIsIntelliJOpened();
+        assertFalse(this.myLaptop.getIsIntelliJOpened());
         this.myLaptop.openIntelliJ();
-        assertEquals(true, this.myLaptop.getIsIntelliJOpened());
+        assertTrue(this.myLaptop.getIsIntelliJOpened());
 
     }
 }
